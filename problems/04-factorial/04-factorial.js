@@ -5,5 +5,3 @@ function factorial(sumNum) {
 
     return (sumNum === 0) ? 1 : sumNum * factorial(sumNum - 1);
 }
-
-console.log(factorial(5));
